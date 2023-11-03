@@ -13,6 +13,10 @@ function App() {
     console.log("counter " ,counter);
     // counter=counter+1;
     setcounter(counter+1)
+    if(counter>20)
+    {
+      setcounter(counter)
+    }
     
 
   }
@@ -20,6 +24,10 @@ function App() {
     console.log("counter " ,counter);
     // counter=counter+1;
     setcounter(counter-1)
+    if(counter<0)
+    {
+      setcounter(counter)
+    }
     
 
   }
