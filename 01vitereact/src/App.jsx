@@ -5,8 +5,11 @@
 
 function App() {
   
+  const username = "nij"
+
   return (
-   <h1>chai or react with vite | NIJ </h1>
+
+   <h1>chai or react with vite {username} </h1>
   )
 }
 
